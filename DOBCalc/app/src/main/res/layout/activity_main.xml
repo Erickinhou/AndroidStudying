@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/bgColor"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULATE YOUR"
+        android:textSize="26sp"
+        android:textColor="@color/snowWhite"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="26sp"
+        android:padding="8dp"
+        android:background="@color/yellow"
+        android:textColor="@color/gray"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN MINUTES"
+        android:textSize="26sp"
+        android:textColor="@color/snowWhite"
+        android:layout_marginTop="16dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELECT DATE"
+        android:textColor="@color/snowWhite"
+        app:backgroundTint="@color/cian"
+        android:onClick="showDatePickerDialog"/>
+
+    <TextView
+        android:id="@+id/tvDateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="14/09/2021"
+        android:textSize="20sp"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textSize="12sp"
+        android:textColor="@color/snowWhite"
+        android:layout_marginTop="16dp" />
+    <TextView
+        android:id="@+id/minutesText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1440"
+        android:textSize="28sp"
+        android:textColor="@color/yellow"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selected Date"
+        android:textSize="12sp"
+        android:textColor="@color/snowWhite"
+        android:layout_marginTop="16dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
